@@ -20,8 +20,7 @@ h2 + p {
   padding-top: 10px;
 }
 
-.header {
-  #title {
+ #title {
   /* Banner Title */
     font-family: 'Lobster Two';
     font-size: 70px;
@@ -38,24 +37,21 @@ h2 + p {
     font-size: 70px;
     -webkit-text-stroke: 2px black;
     position: relative;
-
-
   }
-}
- 
+
 .divider {
   background : #FFDB3F;
-	background : rgba(255, 219, 63, 1);
-	border-style : Solid;
-	border-color : #000000;
-	border-color : rgba(0, 0, 0, 1);
-	border-width : 3px;
-	/*position : absolute ; */
-	left : 0px;
-	top : 0px;
-	width : 700px;
-	height : 969px;
-
+  background : rgba(255, 219, 63, 1);
+  border-style : Solid;
+  border-color : #000000;
+  border-color : rgba(0, 0, 0, 1);
+  border-width : 3px;
+  /*position : absolute ; */
+  left : 0px;
+  top : 0px;
+  width : 700px;
+  height : 969px;
+}
   #in-text {
   /* Address top text */
     font-family: 'Tenor Sans';
@@ -64,9 +60,9 @@ h2 + p {
     padding: 5px;
     position : absolute ;
     left : 0px;
-	  top : 300px;
-	  width : 720px;
-	  height : 122px;
+    top : 300px;
+    width : 720px;
+    height : 122px;
     margin: auto;
   }
   #small-in-text {
@@ -74,12 +70,6 @@ h2 + p {
     padding-top: 40px;
     font-size: 26px;
   }
-
-}
-
-
-
-
 
 /* ----Carousel stle----*/
 
@@ -98,7 +88,7 @@ h2 + p {
     /*border-radius: 5px;*/
     /*overflow: hidden;*/
   }
-  
+
   #scroll-text {
     /* animation properties */
     -moz-transform: translateX(100%);
@@ -107,24 +97,24 @@ h2 + p {
     font-family: 'Borel';
     color:white;
     font-size: 30px;
-    
+
     -moz-animation: my-animation 15s linear infinite;
     -webkit-animation: my-animation 15s linear infinite;
     animation: my-animation 15s linear infinite;
   }
-  
+
   /* for Firefox */
   @-moz-keyframes my-animation {
     from { -moz-transform: translateX(100%); }
     to { -moz-transform: translateX(-100%); }
   }
-  
+
   /* for Chrome */
   @-webkit-keyframes my-animation {
     from { -webkit-transform: translateX(100%); }
     to { -webkit-transform: translateX(-100%); }
   }
-  
+
   @keyframes my-animation {
     from {
       -moz-transform: translateX(100%);
