@@ -1,0 +1,66 @@
+/*Customizing Homepage */
+video {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+#header {
+    /*font-family: 'Lobster Two';
+    font-size: 150px;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    position: inherit;
+    margin: auto;
+    padding-left: 100px;
+    text-align: center; */
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.date {
+        font-family: 'Borel';
+        color: #ffdb3f;
+        font-size: 50px;
+        -webkit-text-stroke: 2px black;
+        position: relative;
+        top: 50%;
+        text-align: center;
+    }
+    #invite {
+        font-family: 'Tenor Sans';
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        border: 3px;
+        padding: 10px;
+        background: rgb(0 0 0/ 11%) ;
+        margin: 0;
+
+        top: 50%;
+        left: auto;
+
+    }
+
+#video {
+    display: flex;
+    justify-content: center;
+    filter: blur(4px);
+    /* -webkit-filter: blur(2px); */
+
+
+}
+.page {
+    background-color: #ffdb3f;
+}
